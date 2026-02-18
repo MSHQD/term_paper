@@ -1,0 +1,20 @@
+{
+  "name": "otzovik",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "node index.js",
+    "parse-reviews": "node review_parser.js",
+    "test-parser": "node test_parser.js"
+  },
+  "dependencies": {
+    "chromedriver": "^140.0.3",
+    "selenium-webdriver": "^4.35.0"
+  }
+}

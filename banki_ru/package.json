@@ -1,0 +1,19 @@
+{
+  "name": "banki",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.12.2",
+    "cheerio": "^1.1.0",
+    "fs-extra": "^11.3.2",
+    "p-limit": "^3.1.0",
+    "puppeteer": "^24.22.0"
+  }
+}
